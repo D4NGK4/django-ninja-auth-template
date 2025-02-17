@@ -1,0 +1,10 @@
+scripts:
+  server:
+    - python manage.py runserver
+
+  migrate:
+    - python manage.py migrate
+    - python manage.py makemigrations  
+
+  check:
+    - python manage.py check
